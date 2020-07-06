@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Tahoma;
+  font-family: Georgia;
   padding: 10px;
   background: #f1f1f1;
 }
@@ -86,6 +86,13 @@ p {
   padding: 20px;
   margin-top: 20px;
 }
+/* Card type for right column */
+.cardright {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  height: 100%;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -120,20 +127,20 @@ p {
 </style>
 </head>
 <body>
-/*
-<div class="header">
+
+<!-- <div class="header">
   <h1>My Website</h1>
   <p>Resize the browser window to see the effect.</p>
-</div> 
-*/
+</div> -->
 
-<div class="topnav">
-  <a href="#"> <h4> Rajat Bhatia </h4> </a>
-  <a href="#"> <p> Link 1 <p> </a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
+<div class="topnav"><p style="font-size:14px">
+  <a href="#"><b>Rajat Bhatia</b></a>
+  <a href="#">Link 1</a>
   <a href="#" style="float:right">Link 4</a>
-</div>
+  <a href="#" style="float:right">Link 4</a>
+  <a href="#" style="float:right">Link 4</a>
+  <a href="#" style="float:right">Link 4</a>
+</p></div>
 
 <div class="row">
   <div class="leftcolumn">
@@ -153,21 +160,16 @@ p {
     </div>
   </div>
   <div class="rightcolumn">
-    <div class="card">
+    <div class="cardright">
       <h2>About Me</h2>
       <div class="fakeimg" style="height:100px;">Image</div>
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
     </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-    </div>
+<!--
     <div class="card">
       <h3>Follow Me</h3>
       <p>Some text..</p>
-    </div>
+    </div> -->
   </div>
 </div>
 
