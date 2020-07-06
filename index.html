@@ -62,13 +62,13 @@ p {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 25%;
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 75%;
   background-color: #f1f1f1;
   padding-left: 10px;
 }
@@ -85,13 +85,6 @@ p {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-}
-/* Card type for right column */
-.cardright {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-  height: 100%;
 }
 
 /* Clear floats after the columns */
@@ -144,32 +137,31 @@ p {
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">
+    <div class="card">   
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>        
+    </div>
+<!--    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+      </div> -->
+  </div>
+  <div class="rightcolumn">
+    <div class="card">      
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>    
     </div>
-    <div class="card">
+    <div class="card">    
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="cardright">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-<!--
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div> -->
+    </div> 
   </div>
 </div>
 
